@@ -1,0 +1,116 @@
+html{
+  box-sizing : border-box
+  
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+body{
+  padding: 40px;
+}
+p,h4,h2{
+  margin:0;
+}
+
+.card {
+  width: 500px;
+  height:350px;
+box-shadow: 0px 0px 27px 16px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+border-radius : 5px;
+ overflow: hidden;
+}
+
+#top-info{
+  height: 40%;
+  width : 100%;
+  padding: 20px;
+ 
+}
+
+#bot-info{
+  display: flex;
+  height: 60%;
+  width : 100%;
+color: #496B6E;
+}
+
+#botleft-info{
+  //display : inline-block;
+  height: 100%;
+  width : 50%;
+  padding: 20px;
+  
+  
+  vertical-align: top;
+  background-color: #59DEF0;
+  
+} 
+#botright-info{
+//display : inline-block;
+  height: 100%;
+  width : 50%;
+  border : 2px solid black
+  vertical-align: top;
+  background-color: #A2E9F2;
+  padding: 20px;
+}
+#top-info h2 {
+  color : #4B6C70;
+  font-size : 20px;
+  margin-bottom : 10px;
+  
+}
+
+#top-info h4 {
+  color : #E2F07A;
+  margin-bottom : 10px;
+  font-size : 17px;
+}
+
+
+#top-info p {
+  color : grey;
+  font-size: 13px;
+}
+
+#price{
+  font-weight : 700;
+  font-size : 23px
+}
+
+button{
+  color: white;
+  padding: 10px;
+  width :100%;
+  background-color : #E9ED9F;
+  margin-top: 10px;
+  
+}
+
+#botleft-info h4 {
+  margin-bottom : 10px;
+  
+}
+
+#frequency, #price{
+  display : inline-block;
+  margin-bottom: 10px;
+  
+}
+
+#frequency{
+  position : relative;
+  top: -5px;
+  margin-left: 6px;
+  font-size: 13px;
+  }
+ul{
+  padding: 0 ;
+  list-style: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color  : #6D702A;
+  transfor: scale(1.02);
+}
